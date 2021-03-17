@@ -81,10 +81,10 @@ public class Bot extends TelegramLongPollingBot {
     }
 
     public String getBotUsername() {
-        return "dima_sic_bot";
+        return System.getProperty("botName");
     }
 
     public String getBotToken() {
-        return "1256858454:AAEwkqYj7JKqsqR7RgU4lUd0lvGVBjsyO5A";
+        return System.getProperty("botToken");
     }
 }
